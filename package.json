@@ -1,8 +1,18 @@
 {
   "name": "@srcml/md",
   "version": "0.1.0",
+  "type": "module",
   "scripts": {
     "test": "vitest"
   },
-  "dependencies": {}
+  "dependencies": {
+    "jsdom": "^22.1.0",
+    "mdast-util-from-markdown": "^2.0.0",
+    "remark-parse": "^10.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.4"
+  }
 }
